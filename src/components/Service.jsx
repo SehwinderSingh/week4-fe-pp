@@ -1,4 +1,4 @@
-const Service = ({ id, icon, title, text, onRemove }) => {
+const Service = ({ id, icon, title, text, onRemove, details }) => {
   return (
     <article className="service">
       <span className="service-icon">
