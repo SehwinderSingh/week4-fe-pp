@@ -6,12 +6,11 @@ import tour5 from "./assets/images/tour-1.jpeg";
 import tour6 from "./assets/images/tour-2.jpeg";
 import tour7 from "./assets/images/tour-3.jpeg";
 
-
 export const pageLinks = [
-  { id: 1, href: "#home", text: "home" },
-  { id: 2, href: "#about", text: "about" },
-  { id: 3, href: "#services", text: "services" },
-  { id: 4, href: "#tours", text: "tours" },
+  { id: 1, href: "/", text: "home" },
+  { id: 2, href: "/about", text: "about" },
+  { id: 3, href: "/services", text: "services" },
+  { id: 4, href: "/tours", text: "tours" },
 ];
 
 export const socialLinks = [
@@ -26,35 +25,40 @@ export const services = [
     icon: "fas fa-wallet fa-fw",
     title: "saving money",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
-    details: "Get the best deals on travel packages with our exclusive discounts and special offers.",
+    details:
+      "Get the best deals on travel packages with our exclusive discounts and special offers.",
   },
   {
     id: 2,
     icon: "fas fa-tree fa-fw",
     title: "endless hiking",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
-    details: "Explore stunning trails and natural landscapes with experienced guides.",
+    details:
+      "Explore stunning trails and natural landscapes with experienced guides.",
   },
   {
     id: 3,
     icon: "fas fa-socks fa-fw",
     title: "amazing comfort",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
-    details: "Enjoy premium accommodations and amenities throughout your journey.",
+    details:
+      "Enjoy premium accommodations and amenities throughout your journey.",
   },
   {
     id: 4,
     icon: "fas fa-plane fa-fw",
     title: "easy travel",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
-    details: "Seamless flight bookings and transfers to make your journey stress-free.",
+    details:
+      "Seamless flight bookings and transfers to make your journey stress-free.",
   },
   {
     id: 5,
     icon: "fas fa-utensils fa-fw",
     title: "local cuisine",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
-    details: "Taste authentic dishes and enjoy culinary experiences guided by local chefs.",
+    details:
+      "Taste authentic dishes and enjoy culinary experiences guided by local chefs.",
   },
 ];
 
